@@ -36,19 +36,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CommandLine, Version=2.7.82.0, Culture=neutral, PublicKeyToken=5a870481e358d379, processorArchitecture=MSIL">
-      <HintPath>..\packages\CommandLineParser.2.7.82\lib\net461\CommandLine.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\CommandLineParser.2.7.82\lib\net461\CommandLine.dll</HintPath>
     </Reference>
     <Reference Include="PeNet, Version=1.5.3.0, Culture=neutral, PublicKeyToken=6cf2bfba59bcfb3f, processorArchitecture=MSIL">
-      <HintPath>..\packages\PeNet.1.5.3\lib\net461\PeNet.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\PeNet.1.5.3\lib\net461\PeNet.dll</HintPath>
     </Reference>
     <Reference Include="PeNet.Asn1, Version=1.3.3.0, Culture=neutral, PublicKeyToken=1e2e3568f0050bf5, processorArchitecture=MSIL">
-      <HintPath>..\packages\PeNet.Asn1.1.3.3\lib\net461\PeNet.Asn1.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\PeNet.Asn1.1.3.3\lib\net461\PeNet.Asn1.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Security" />
     <Reference Include="System.Security.Cryptography.Pkcs, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Security.Cryptography.Pkcs.4.7.0\lib\net461\System.Security.Cryptography.Pkcs.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\System.Security.Cryptography.Pkcs.4.7.0\lib\net461\System.Security.Cryptography.Pkcs.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -56,19 +56,19 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="Validation, Version=2.4.0.0, Culture=neutral, PublicKeyToken=2fc06f0d701809a7, processorArchitecture=MSIL">
-      <HintPath>..\packages\Validation.2.4.18\lib\net45\Validation.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\Validation.2.4.18\lib\net45\Validation.dll</HintPath>
     </Reference>
     <Reference Include="xunit.abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
-      <HintPath>..\packages\xunit.abstractions.2.0.2\lib\net35\xunit.abstractions.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\xunit.abstractions.2.0.2\lib\net35\xunit.abstractions.dll</HintPath>
     </Reference>
     <Reference Include="xunit.core, Version=2.4.0.4049, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
-      <HintPath>..\packages\xunit.extensibility.core.2.4.0\lib\net452\xunit.core.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\xunit.extensibility.core.2.4.0\lib\net452\xunit.core.dll</HintPath>
     </Reference>
     <Reference Include="xunit.execution.desktop, Version=2.4.0.4049, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
-      <HintPath>..\packages\xunit.extensibility.execution.2.4.0\lib\net452\xunit.execution.desktop.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\xunit.extensibility.execution.2.4.0\lib\net452\xunit.execution.desktop.dll</HintPath>
     </Reference>
     <Reference Include="Xunit.SkippableFact, Version=1.3.0.0, Culture=neutral, PublicKeyToken=b2b52da82b58eb73, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xunit.SkippableFact.1.3.12\lib\net452\Xunit.SkippableFact.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\Xunit.SkippableFact.1.3.12\lib\net452\Xunit.SkippableFact.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
